@@ -16,5 +16,5 @@ All the necessary functions are written in Class List.
 some of them are:
 
 1. Reverse Print     
-2. KthToLast - recursive and Iterative     
+2. KthToLast - Recursive and Iterative     
 
