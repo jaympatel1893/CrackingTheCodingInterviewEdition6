@@ -2,4 +2,19 @@
 
 Here are some implementations of the newest version of Cracking the Coding Interview. (Edition 6)
 
-Feel free to contribute and create issues if you find any.
+Arrays and Strings:
+
+1.3 - URLify
+1.4 - Palindrome Permutation
+1.6 - Compress String
+
+Linked Lists: 
+
+There is only one file.
+
+All the necessary functions are written in Class List.
+some of them are:
+
+1. Reverse Print
+2. KthToLast - recursive and Iterative
+
