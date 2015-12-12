@@ -34,6 +34,7 @@ public class URLify
             }
         }
         System.out.println(stringToChar);
+        
     }
 
 
