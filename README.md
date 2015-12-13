@@ -18,3 +18,7 @@ some of them are:
 1. Reverse Print     
 2. KthToLast - Recursive and Iterative     
 
+Stacks And Queues:
+
+1. Queue Using Stacks
+
