@@ -21,4 +21,5 @@ some of them are:
 Stacks And Queues:
 
 1. Queue Using Stacks
+2. Stack Using Queues
 
