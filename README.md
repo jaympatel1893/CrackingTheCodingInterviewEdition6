@@ -26,6 +26,7 @@ some of them are:
 ## Trees and Graphs:    
 
 Binary Search Tree which has Following methods:    
+
 1.  MakeTree    
 2.  GetHeight    
 3.  Check If Tree IsBalanced    
