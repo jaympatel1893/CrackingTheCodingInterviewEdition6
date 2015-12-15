@@ -31,6 +31,6 @@ Binary Search Tree which has Following methods:
 2.  GetHeight    
 3.  Check If Tree IsBalanced    
 4.  Smallest Possible BST if a Sorted array is Given     
-
+5.  Inorder Predecessor and Successor 
 List of Depths Using BFS
 
