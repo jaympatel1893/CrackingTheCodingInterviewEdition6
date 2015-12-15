@@ -100,6 +100,67 @@ class DriverTree{
             InorderTraversal(t.right);
         }    
     }
+    TreeNode inOrderSuccessor(TreeNode root, int key)
+    {
+        if(root==null)
+            return null;
+        else
+        {
+            TreeNode returnedNode = new TreeNode();
+            if(root.data==key)
+            {
+                //check rightmost child of left subtree
+                if(root.right!=null)
+                {
+                    TreeNode temp = root.right;
+                    while(temp.left!=null)
+                    {
+                        temp = temp.left;
+                    }
+                    returnedNode = temp;
+                }
+            }
+            else 
+            {
+                if(root.data>key)
+                    returnedNode = inOrderSuccessor(root.left, key);
+                else
+                    returnedNode = inOrderSuccessor(root.right, key);
+            }
+            return returnedNode;
+        }           
+        
+    }
+    TreeNode inOrderPredecessor(TreeNode root,int key)
+    {
+        if(root==null)
+            return null;
+        else
+        {
+            TreeNode returnedNode = new TreeNode();
+            if(root.data==key)
+            {
+                //check rightmost child of left subtree
+                if(root.left!=null)
+                {
+                    TreeNode temp = root.left;
+                    while(temp.right!=null)
+                    {
+                        temp = temp.right;
+                    }
+                    returnedNode = temp;
+                }
+            }
+            else 
+            {
+                if(root.data>key)
+                    returnedNode = inOrderPredecessor(root.left, key);
+                else
+                    returnedNode = inOrderPredecessor(root.right, key);
+            }
+            return returnedNode;
+        }           
+    }
     
     public boolean checkBalanced(TreeNode node)
     {
