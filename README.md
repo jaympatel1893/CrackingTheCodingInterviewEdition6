@@ -25,10 +25,11 @@ Stacks And Queues:
 
 Trees and Graphs:    
 
-Binary Search Tree which has Following methods:
+Binary Search Tree which has Following methods:    
 1. MakeTree    
 2. GetHeight    
-3. CheckIfTreeIsBalanced    
+3. Check If Tree IsBalanced    
+4. Smallest Possible BST if a Sorted array is Given     
 
 4.3 List of Depths Using BFS
 
