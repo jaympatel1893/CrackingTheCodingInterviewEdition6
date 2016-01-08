@@ -18,7 +18,7 @@ public class PalindromePermutation
         
         for(int i=0;i<input.length();i++)
         {
-            if(input.charAt(i)>=97 && input.charAt(i)<=123)
+            if(input.charAt(i)>=97 && input.charAt(i)<=122)
             count[input.charAt(i)-'a']++;
         }
         int noOfEven = 0, noOfOdd = 0;
